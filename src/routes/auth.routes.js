@@ -3,4 +3,5 @@ import { signUp, signIn } from '../controllers/auth.controller.js';
 const r = Router();
 r.post('/signup', signUp);
 r.post('/signin', signIn);
+r.post('/googler', signInWithGoogleServerCode)
 export default r;
